@@ -6,7 +6,7 @@ env:
 phases: 
   install:
     runtime-versions:
-      nodejs: 21.6.1
+      nodejs: 20
     commands:
       - echo "📦 installing packages..."
       - echo "✅ Packages installed successfully."
