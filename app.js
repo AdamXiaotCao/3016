@@ -14,7 +14,7 @@ app.get("/health", (req, res) => {
 });
 
 app.get("/hello", (req, res) => {
-  res.send("hi\n")
+  res.send("Miss your mi mi\n")
 });
 
 const PORT = process.env.PORT || 3001;
