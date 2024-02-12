@@ -1,4 +1,7 @@
 version: 0.2
+env:
+  parameter-store:
+    PASSWORD: /Production/AppPassword
 
 phases: 
   install:
@@ -19,3 +22,8 @@ phases:
     commands:
       - echo "🚚 Performing post-build packing and operations..."
       - echo "✅ Post build successful"
+
+artifacts:
+  files:
+    - '**/*'
+  name: deploy-nodejs-build-artifacts

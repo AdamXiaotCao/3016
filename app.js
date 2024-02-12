@@ -13,7 +13,9 @@ app.get("/health", (req, res) => {
   });
 });
 
-
+app.get("/hello", (req, res) => {
+  res.send("hi\n")
+});
 
 const PORT = process.env.PORT || 3001;
 
