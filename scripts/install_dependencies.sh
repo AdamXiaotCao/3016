@@ -2,7 +2,7 @@
 echo "install dependencies"
 
 
-if [ -d "${HOME}/.nvm/.git" ];  then
+if [ -d "${HOME}/.nvm" ];  then
     echo "NVM is already installed."
 else
     echo "NVM is not installed."
